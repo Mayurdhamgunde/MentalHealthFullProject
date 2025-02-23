@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 // import mentalHealthImage from '../assets/mentalHealthimg.jpeg';
-import mentalHealthImage from '../assets/mental-health-3.jpeg';
+import mentalHealthImage from '/mental-health-3.jpeg?url';
 import { Brain, Sparkles, ChevronRight, Activity, Wand2, Globe, Lightbulb, Rocket } from 'lucide-react';
 import { motion } from 'framer-motion';
 

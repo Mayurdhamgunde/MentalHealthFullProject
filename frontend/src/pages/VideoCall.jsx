@@ -647,9 +647,9 @@ export default function VideoCall() {
   };
 
   return (
-    <div className="min-h-screen  p-8 mt-10">
+    <div className="min-h-screen  p-8 mt-12">
       {!isJoined ? (
-        <div className="max-w-md mx-auto bg-white    rounded-lg p-6 shadow-md">
+        <div className="max-w-md mx-auto bg-white rounded-lg p-6 shadow-lg">
           <h1 className="text-2xl font-bold text-purple-700 mb-6">Join Video Call</h1>
           {error && (
             <div className="mb-4 p-2 bg-red-100 text-red-700 rounded">
