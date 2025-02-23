@@ -40,6 +40,7 @@ import Login from './pages/Login';
 import FormContainer from './FormContainer';
 import Footer from './pages/Footer';
 import VideoCall from './pages/Videocall';
+import DashBoard from './pages/DashBoard';
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function MainContent() {
         <Route path="/login" element={<Login />} />
         <Route path="/predict" element={<FormContainer />} />
         <Route path="/video-call" element={<VideoCall />} />
+        <Route path="/dashboard" element={<DashBoard />} />
       </Routes>
 
       {/* Show Footer only if NOT on the login page */}

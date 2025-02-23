@@ -152,6 +152,9 @@ const Navbar = () => {
         <Link to="/about" className="font-medium hover:text-purple-700 transition duration-300">
           ABOUT US
         </Link>
+        <Link to="/dashboard" className="font-medium hover:text-purple-700 transition duration-300">
+          DASHBOARD
+        </Link>
         <Link to="/video-call" className="font-medium hover:text-purple-700 transition duration-300">
           VIDEO CALL
         </Link>
@@ -183,7 +186,7 @@ const Navbar = () => {
 
           {/* Mobile Menu */}
           <div className="absolute top-16 left-0 right-0 bg-white z-50 shadow-lg rounded-b-lg md:hidden transition-transform duration-300 transform scale-y-100 origin-top">
-            <div className="flex flex-col p-6 gap-4">
+            <div className="flex flex-col p-6 gap-7">
               <Link to="/" className="font-medium py-3 hover:text-purple-700 transition duration-300" onClick={handleLinkClick}>
                 HOME
               </Link>
@@ -193,7 +196,10 @@ const Navbar = () => {
               <Link to="/about" className="font-medium py-3 hover:text-purple-700 transition duration-300" onClick={handleLinkClick}>
                 ABOUT US
               </Link>
-              <Link to="/video-call" className="font-medium hover:text-purple-700 transition duration-300">
+              <Link to="/dashboard" className="font-medium py-3 hover:text-purple-700 transition duration-300">
+               DASHBOARD
+              </Link>
+              <Link to="/video-call" className="font-medium py-3 hover:text-purple-700 transition duration-300">
                 VIDEO CALL
               </Link>
               <Link to="/login" className="bg-purple-700 text-white px-6 py-2 rounded-md font-medium text-center hover:bg-purple-600 transition duration-300" onClick={handleLinkClick}>
