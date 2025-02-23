@@ -168,7 +168,7 @@ const CountUp = ({ end }) => {
     },
     { 
       name: "Mayur Dhamgunde", 
-      role: "Frontend Developer",
+      role: "FullStack Developer",
       photoUrl: "src/assets/me.jpg"  
     },
     { 
