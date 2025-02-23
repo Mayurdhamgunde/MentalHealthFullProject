@@ -39,7 +39,7 @@ import Services from './pages/Services';
 import Login from './pages/Login';
 import FormContainer from './FormContainer';
 import Footer from './pages/Footer';
-import VideoCall from './pages/Videocall';
+import VideoCall from './pages/VideoCall';
 import DashBoard from './pages/DashBoard';
 
 function App() {
