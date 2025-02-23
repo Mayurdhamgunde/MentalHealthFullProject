@@ -1,8 +1,5 @@
 {
-    "rewrites": [
-    {
-      "source": "/video-call",
-      "destination": "https://mental-health-prediction-video-call.onrender.com"
-    }
-    ]
+    "rewrites": [{ 
+        "source": "/(.*)",
+        "destination": "/index.html" }]
   }
