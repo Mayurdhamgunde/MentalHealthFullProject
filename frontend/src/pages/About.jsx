@@ -164,27 +164,27 @@ const CountUp = ({ end }) => {
     { 
       name: "Suhas Amane", 
       role: "ML Engineer",
-      photoUrl: "src/assets/suhas.jpg",
+      photoUrl: "/suhas.jpg",
     },
     { 
       name: "Mayur Dhamgunde", 
       role: "FullStack Developer",
-      photoUrl: "src/assets/me.jpg"  
+      photoUrl: "/me.jpg"  
     },
     { 
       name: "Vivek Kalpavruksha", 
       role: "Integration Developer",
-      photoUrl: "src/assets/vivek.jpg"
+      photoUrl: "/vivek.jpg"
     },
     { 
       name: "Rohan Deshmukh", 
       role: "UI & UX Designer",
-      photoUrl: "src/assets/rohann.jpg"  
+      photoUrl: "/rohann.jpg"  
     },
     { 
       name: "Soham Kale", 
       role: "Frontend Developer",
-      photoUrl: "src/assets/sohamm.jpg"  
+      photoUrl: "/sohamm.jpg"  
     }
   ];
 
