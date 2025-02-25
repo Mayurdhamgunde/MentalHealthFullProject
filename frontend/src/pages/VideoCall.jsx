@@ -1066,7 +1066,7 @@ export default function VideoCall() {
                 autoPlay
                 playsInline
                 muted
-                className={w-full h-full object-cover ${isVideoOff ? 'hidden' : ''}}
+                className={`{w-full h-full object-cover ${isVideoOff ? 'hidden' : ''}`}
               />
               {isVideoOff && (
                 <div className="w-full h-full flex items-center justify-center bg-gray-800">
